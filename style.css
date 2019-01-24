@@ -3,7 +3,7 @@ body {
     margin: 20px auto;
     width: 1000px;
     font-family: 'Comic Sans MS'; 
-    font-size: 1em;
+    font-size: 1.4em;
     background-color: #cbc9c9;
     display: grid;
     grid-template-columns: 25% 75%;
@@ -14,23 +14,38 @@ header {
 }
 img { width: 200px; }
 header h1 { 
-    font-size: 60px; 
+    font-size: 80px; 
     padding-left: 50px;
     padding-top: 30px;
     line-height: 0;
     color: #fff;
+    font-weight: normal;
 }
 header h1 span:first-child { color: #0e9018; }
 header h1 span:last-child { color: #ff0000; }
 nav ul { list-style-type: none; }
 nav a {
     display: block;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     color: #000;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 main {
     padding: 30px 10px 10px 10px;
 }
 /* STOMME - end */
+
+/* MENY */
+
+td {
+    color: #707070;
+    vertical-align: top;
+}
+td:first-child { width: 330px; }
+
+dl { margin: 0 0 20px 0;}
+dd { 
+    margin: 0; 
+    font-style: italic;
+}
