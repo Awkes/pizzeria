@@ -34,3 +34,18 @@ main {
     padding: 30px 10px 10px 10px;
 }
 /* STOMME - end */
+
+/* INDEX CONTENT */
+main img{
+float:left;
+}
+#indexcontent{
+width:50%;
+float:left;
+margin-left:90px;
+color:#707070;
+}
+#indexcontent h2{
+font-size:2em;
+margin-top:0;
+}
