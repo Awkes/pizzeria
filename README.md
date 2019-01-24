@@ -1,1 +1,1 @@
-# pizzeria
+# Mini-projekt i kursen Frontendprojekt.
