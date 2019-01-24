@@ -1,20 +1,20 @@
 /* STOMME - Start*/
-body { 
+body {
     margin: 20px auto;
     width: 1000px;
-    font-family: 'Comic Sans MS'; 
+    font-family: 'Comic Sans MS';
     font-size: 1.4em;
     background-color: #cbc9c9;
     display: grid;
     grid-template-columns: 25% 75%;
-}      
-header { 
-    display: flex; 
+}
+header {
+    display: flex;
     grid-column: 1/3;
 }
 img { width: 200px; }
-header h1 { 
-    font-size: 80px; 
+header h1 {
+    font-size: 80px;
     padding-left: 50px;
     padding-top: 30px;
     line-height: 0;
@@ -50,6 +50,15 @@ color:#707070;
 font-size:2em;
 margin-top:0;
 }
+
+/* KONTAKT */
+#kontaktcontent {
+  font-family: times-new-roman;
+  font-size: 1.5em;
+  color: #707070;
+  margin-left: 4em;
+}
+
 /* MENY */
 
 td {
@@ -59,7 +68,7 @@ td {
 td:first-child { width: 330px; }
 
 dl { margin: 0 0 20px 0;}
-dd { 
-    margin: 0; 
+dd {
+    margin: 0;
     font-style: italic;
 }
